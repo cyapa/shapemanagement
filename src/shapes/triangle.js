@@ -13,14 +13,13 @@ export default function Triangle(props) {
       height: '0',
       borderLeft: '50px solid transparent',
       borderRight: '50px solid transparent',
-      borderBottom: '100px solid #555',
+      borderBottom:`100px solid ${color}`,
+      boxShadow: btnactive,
       cursor: 'pointer',
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
-      margin: '10px 10px 10px 10px'
-
-      // background: 'blue' // Take from Circle properties
+      margin: '10px 10px 10px 10px',
     };
 
       return (

@@ -19,7 +19,7 @@ export default function Circle(props) {
       justifyContent: 'center',
       alignItems: 'center',
       cursor: 'pointer',
-      background: 'blue' // Take from Circle properties
+      background: color // Take from Box properties
     };
 
       return (
