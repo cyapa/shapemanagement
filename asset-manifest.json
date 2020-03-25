@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/shapemanagement/static/css/main.31809dbb.chunk.css",
+    "main.js": "/shapemanagement/static/js/main.3b194edb.chunk.js",
+    "main.js.map": "/shapemanagement/static/js/main.3b194edb.chunk.js.map",
+    "runtime-main.js": "/shapemanagement/static/js/runtime-main.d2a34d5e.js",
+    "runtime-main.js.map": "/shapemanagement/static/js/runtime-main.d2a34d5e.js.map",
+    "static/js/2.c5585712.chunk.js": "/shapemanagement/static/js/2.c5585712.chunk.js",
+    "static/js/2.c5585712.chunk.js.map": "/shapemanagement/static/js/2.c5585712.chunk.js.map",
+    "index.html": "/shapemanagement/index.html",
+    "precache-manifest.2d312bca524c54c168db1f33661c825f.js": "/shapemanagement/precache-manifest.2d312bca524c54c168db1f33661c825f.js",
+    "service-worker.js": "/shapemanagement/service-worker.js",
+    "static/css/main.31809dbb.chunk.css.map": "/shapemanagement/static/css/main.31809dbb.chunk.css.map",
+    "static/js/2.c5585712.chunk.js.LICENSE.txt": "/shapemanagement/static/js/2.c5585712.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2a34d5e.js",
+    "static/js/2.c5585712.chunk.js",
+    "static/css/main.31809dbb.chunk.css",
+    "static/js/main.3b194edb.chunk.js"
+  ]
+}
