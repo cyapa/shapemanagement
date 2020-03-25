@@ -1,68 +1,75 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# README.md Shapes managemnet web application
 
-## Available Scripts
+Final version of the README.md -
+ files:
 
-In the project directory, you can run:
+  * LICENSE.md                                      License & Copyright information
+  * README.md                                       Final version of the README
+  * INSTRUCTIONS.md                                 Instructions of the web application
+## Developers information
 
-### `npm start`
+Members:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Chathura Yapa kymcwyapa@gmail.com
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Product requirements
 
-### `npm test`
+* Users should be able to select shapes
+* Users should be able to add shapes
+* Users should be able to delete boxes (selected box or last box)
+* Users should be able to change box color from color library(selected box or upcoming boxes)
+* Users should be able to see number of boxes shown with current box color
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technological considerations
 
-### `npm run build`
+* React was used for the development.
+* Did not use React components as the developer wanted to try the development based on hooks.
+* As the developer wanted to try out a type validation, PropTypes were used.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## UX considerations
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* Use of intuitive user interface elements
+* Use of eye friendly colors
+* Minimalistic user interface
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## External libraries used
 
-### `npm run eject`
+* Material-UI: To create, tabs and other elements
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Development progression
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+|Order|Feature/Design|Completion date|
+|:----|-------|-------------------------|
+|1|Basic structure and development|13.03.2020
+|2|Tesing and bug fixes|14.03.2020
+|3|Visual improvements|14.03.2020
+|4|Documentation|15.03.2020
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## To-do list
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This list contain the existing defects and the new suggested features to be developed
 
-## Learn More
+|Priority|To-do|Feature/BugFix|Status
+|:----|-------|-------|------|
+|1|~~Fix a scenario where some boxes are not getting deleted when user try a box selected deletion & normal delete~~| BugFix| FIXED
+|2|In screen 2, the colors are getting selected randomly. There is a small chance that the same color get selected. If this happens user will not notice the color change| Feature
+|3|In screen 3, the summary text is using base styling. This can be visually improved| Feature
+|4|The web application utilizes a small portion of the browser screen. Either enlarge the user interface areas or get user feedback on how to proceed| Feature
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Pages and navigation
 
-### Code Splitting
+This is a single page web application. Hence user interactions are divided into Tabs
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+* Tab 1: Display boxes, Add/delete boxes, Select/deselect boxes
+* Tab 2: Display/Change current box color
+* Tab 3: Display number of boxes shown in Tab 1 and the current color
 
-### Analyzing the Bundle Size
+## Testing
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Manual functionality testing was conducted by the developer in Chrome browser (Version 80.0.3987.132 (Official Build) (64-bit)).
 
-### Making a Progressive Web App
+## How to run
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This is a single page React web application. 
+Navigate to the project folder and use ___npm start___
